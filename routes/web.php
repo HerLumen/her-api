@@ -14,5 +14,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return 'kxxb  3333 '. $router->app->version();
+    return  $router->app->version();
 });
